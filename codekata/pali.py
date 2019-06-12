@@ -1,0 +1,12 @@
+a1=input()
+a=int(a1)
+b=a
+i=0
+while(a!=0):
+  p=int(a%10)
+  i=int(i*10+p)
+  a=int(a/10)
+if(b==i):
+  print("yes")
+else:
+  print("no")

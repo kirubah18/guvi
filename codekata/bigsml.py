@@ -1,0 +1,5 @@
+Nu=int(input())
+array=input().split()
+xl=max(array)
+yl=min(array)
+print(yl,xl)

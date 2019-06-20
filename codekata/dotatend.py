@@ -1,0 +1,2 @@
+tim=input()
+print(tim+'.')
